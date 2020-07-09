@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn {
+  background-color: none;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  box-shadow: white;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #E3DBDA}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f1f1f1;
+  color:black;
+}
+</style>
+ <title>Coding Is Simple</title>
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+ 
+
+</head>
+<body>
+<header>
+<div class="main">
+<div class="logo">
+<img src="mylogo.png">
+</div>
+<ul>
+  <li class="active"><a href="#home">Home</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Languages</a>
+    <div class="dropdown-content">
+      <a href="new2.html">Java</a>
+      <a href="#">C</a>
+      <a href="#">C++</a>
+    </div>
+  </li>
+  <li><a href="#">Data Structure</a></li>
+  <li><a href="#">Algorithm</a></li>
+  <li><a href="#">CS Subject</a></li>
+  <li><a href="#">Projects</a></li>
+</ul>
+</div>
+<div class="title">
+<h1>Coding Is Simple</h1>
+</div>
+<div class="button">
+<a href="register.html" class="btn">Start Learning</a>
+<a href="https://clist.by/" class="btn">Contest Update</a>
+</header>
+
+</body>
+</html>
